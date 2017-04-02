@@ -1,0 +1,83 @@
+<mvc:View xmlns:html="http://www.w3.org/1999/xhtml" xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="Milestone_OCR.controller.View1" afterInit="" beforeRendering="" afterRendering="">
+	<App>
+		<pages>
+			<Page id="page" title="{i18n>title}">
+				<content id="panel">
+					<!--<Image width="540px" height="540px" id="__image0" src="image/process.png"/>-->
+					<Button text="Button" width="100px" id="__button0" press="ocr"/>
+					<!--< canvas id="OCRArea" width="800" height="400" style="border:1px solid #000000;"  > </canvas>-->
+					<!--   				 <core:HTML   preferDOM="true" content="&lt;canvas id='radarChart' width='800' height='650'/&gt;" />-->
+					<TextArea id="__area1" value="asd" cols="60" rows="3"/>
+					<Button text="Button" width="100px" id="__button1" press="Zoomout"/>
+					<TextArea id="__area0" value="asd" cols="60" rows="3"/>
+				
+				<!--	<FORM method="post" action="SAPEVENT:SUBMIT_FORM_AS_POST_METHOD">
+			 
+											<INPUT TYPE="submit" VALUE="Submit input using POST method"></INPUT> </FORM>-->
+										
+											<!--<Image src="image/process.jpg" id="__image0" height="800px" width="800px"/>-->
+											<!--  <html:canvas preferDOM="false" id="myCanvas" width="800" height="650" style='border:1px solid #000000' ></html:canvas>-->
+										
+							 
+											
+											<core:HTML preferDOM="true" content=" &lt;canvas id='myCanvas' style='border:1px solid #000000' /&gt; "/>
+										
+										
+											<sap.ui.layout.form:Form  method="post" action="SAPEVENT:SUBMIT_FORM_AS_POST_METHOD"  editable="true" xmlns:sap.ui.layout.form="sap.ui.layout.form" id="__form0">
+										
+										
+											    <sap.ui.layout.form:formContainers>
+										
+										
+											        <sap.ui.layout.form:FormContainer title="Title" id="__container0">
+										
+										
+											            <sap.ui.layout.form:formElements>
+										
+										
+											                <sap.ui.layout.form:FormElement label="Label" id="__element0">
+										
+										
+											                    <sap.ui.layout.form:fields>
+										
+										
+											                        <Button text="Button" width="100px" id="__button2"/>
+										
+										
+											                        <Input width="100%" id="__input0"/>
+										
+										
+											                    </sap.ui.layout.form:fields>
+										
+										
+											                </sap.ui.layout.form:FormElement>
+										
+										
+											            </sap.ui.layout.form:formElements>
+										
+										
+											        </sap.ui.layout.form:FormContainer>
+										
+										
+											    </sap.ui.layout.form:formContainers>
+										
+										
+											    <sap.ui.layout.form:layout>
+										
+										
+											        <sap.ui.layout.form:ResponsiveGridLayout id="__layout0"/>
+										
+										
+											    </sap.ui.layout.form:layout></sap.ui.layout.form:Form>
+											<!--		<core:HTML preferDOM="true" content=" &lt;canvas id='myCanvas2'  style='border:1px solid #000000' /&gt; "/>
+-->
+											<!--	<core:HTML preferDOM="true" content=" &lt;canvas id='__image0'  style='border:1px solid #000000' /&gt; "/>-->
+											<ScrollContainer id="__area11" height="100%" width="100%" horizontal="true" vertical="true" focusable="true">
+												<core:HTML id="html1" preferDOM="true" content="&lt;image id='__image0' src='image/process.jpg'/&gt;"/>
+												<!--<core:HTML preferDOM="false" content=" &lt;canvas id='__image0'  style='border:1px solid #000000' /&gt; "/>-->
+											</ScrollContainer>
+										</content>
+									</Page>
+								</pages>
+							</App>
+						</mvc:View>
